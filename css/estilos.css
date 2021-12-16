@@ -1,0 +1,242 @@
+body 
+{
+  
+  margin: 0;
+  padding:0; 
+ background-color: rgb(179, 127, 91);
+}
+
+a:hover
+{
+	color: chartreuse;
+}
+.nav1
+{
+background-color: rgb(116, 116, 116);
+height: 75px;
+justify-content: center;
+text-align: center;
+flex: auto;
+flex-wrap: wrap;
+}
+.img1
+{
+    height: 75px;
+    width: 125px;
+    float: left;
+}
+.a1
+{
+    flex: auto;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.contenedor2
+{
+    justify-content: center;
+    text-align: center;
+    padding-top: 28px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.contenedor3
+{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+}
+.contenedor4
+{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: space-around;
+}
+/*---cubo de ribik------------------------------------------------------------------------------------------------------------------------------------------------  */
+#N1
+{
+	background: red;
+	transform:translateZ(100px) 
+}
+ #N2
+{
+	background: green;
+	transform:translateX(100px)  rotateY(90deg) 
+}
+
+#N3
+{
+	background: orangered;
+	transform:translateZ(-100px) 
+}
+#N4
+{
+	background: blue;
+	transform:translateX(-100px) rotateY(90deg)
+}
+#N5
+{
+	background: yellow;
+	transform:translateY(-100px) rotateX(90deg)
+}
+#N6
+{
+	background:white;
+	transform:translateY(100px) rotateX(90deg)
+}
+
+.contenedor4-2
+{
+	margin:43px;
+	perspective-origin: 0px -1000px;
+	perspective:7000px;
+}
+
+.cubo
+{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	transform-style: preserve-3d;
+	animation: girar 5s infinite linear;
+}
+
+.cara
+{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	border-style: solid;
+	border-radius: initial;
+	
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.cuadritos
+{
+    border-width:medium;	
+	border-style: solid;
+	border-radius: initial;
+	width: 60.5px;
+	height: 61px;
+}
+
+@keyframes girar
+{
+	from
+	{
+		transform: rotateY(0deg);
+
+	}
+	to
+	{
+		transform: rotateY(360deg);
+
+	}
+
+}
+/* ------------------------------------------------------------------------------------- */
+.contenedor5
+{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.text5-1
+{
+	text-align: center;
+    display: block;
+}
+
+.contenedor6
+{
+	display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: space-around;
+
+}
+.contenedor6-1
+{
+	margin-top: 20px;
+}
+.img6-1
+{
+	padding-top: 20px;
+	padding-right: 20px;
+}
+.contenedor8
+{
+	
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    flex-direction: column;
+}
+.tabla1
+{
+	background-color: chocolate;
+	width: 700px;
+}
+.td1
+{
+	background-color: chartreuse;
+}
+.contenedor9
+{
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}
+.contenedor9-1
+{
+	display: flex;
+	flex-direction:column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+	
+}
+.text9
+{
+	display: flex;
+	flex-direction:column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+	;
+}
+.contenedor7
+{
+	display: flex;
+		
+}
+.contenedor-form1
+{
+	border:solid orange 1px;
+    width: 50%;
+    padding-left: 0px;
+    margin-left: 322px;
+}
+
+.fm
+{
+	margin: 10px;
+}
+.textt1
+{
+	text-align: center;
+}
