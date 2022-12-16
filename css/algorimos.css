@@ -1,9 +1,13 @@
-body 
+body
 {
-  
-  margin: 0;
-  padding:0; 
-  
+    background-image: url('../imagenes/31MzyVgeKWL.__AC_SX300_SY300_QL70_ML2_.jpg');
+    margin: 0;
+    padding:0; 
+    
+}
+p,h3,h2,h1,label,input
+{
+	color: white;
 }
 
 a:hover
@@ -58,10 +62,6 @@ img
 .text1
 {
     text-align: center;
-}
-body
-{
-    background-color: rgb(180, 178, 178);
 }
 audio {
     width: 300px;

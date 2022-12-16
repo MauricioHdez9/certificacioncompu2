@@ -3,16 +3,40 @@ body
   
   margin: 0;
   padding:0; 
- background-color: rgb(179, 127, 91);
+  background-image: url('../imagenes/31MzyVgeKWL.__AC_SX300_SY300_QL70_ML2_.jpg');
+ 
 }
-
+/*------------ nieve ---------------------------------------------------------------------------------*/
+#capa {
+	position: fixed; 
+	top: -10vh; left: 0; 
+	height: 120vh; 
+	width: 100vw; 
+	pointer-events: none; 
+	}
+	#capa .nieve { 
+	position: absolute; 
+	top: 0; left: 0; 
+	width: 2.2vmin; height: 2.2vmin; 
+	background: radial-gradient(circle, white 40%, transparent 75%); 
+	}
+	
+/*--------------------------------------------------------------------------------------------------  */
+p,h3,h2,h1,label,input
+{
+	color: white;
+}
 a:hover
 {
-	color: chartreuse;
+	color: black;
+}
+.a2:hover
+{
+	color: greenyellow;
 }
 .nav1
 {
-background-color: rgb(116, 116, 116);
+background-image: url('../imagenes/gray-yellow-white-minimalist-wallpaper-texture-literary-background_1897306.jpg!bwr800');
 height: 75px;
 justify-content: center;
 text-align: center;
@@ -212,6 +236,7 @@ flex-wrap: wrap;
 }
 .text9
 {
+	color: white;
 	display: flex;
 	flex-direction:column;
     flex-wrap: nowrap;
